@@ -2,7 +2,7 @@
         and don't forget to say hi to your partner. */
 
 const {
-  default: mzaziConnect,
+  default: dragonConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -27,22 +27,22 @@ const _ = require("lodash");
 const event = require('./action/events');
 const authenticationn = require('./action/auth');
 const PhoneNumber = require("awesome-phonenumber");
-const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/mzaziexif');
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/mzazifunc');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dragonexif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dragonfunc');
 const { sessionName, session, autobio, autolike, port, packname, autoviewstatus } = require("./set.js");
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 const color = (text, color) => {
   return !color ? chalk.green(text) : chalk.keyword(color)(text);
 };
 
-async function startMzazi() {
+async function startDragon() {
                  await authenticationn();  
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("MZAZI", {
+      figlet.textSync("DRAGON", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -52,10 +52,10 @@ async function startMzazi() {
     )
   );
 
-  const client = mzaziConnect({
+  const client = dragonConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["MZAZI-XMD", "Safari", "5.1.7"],
+    browser: ["DRAGON-XMD", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -82,15 +82,15 @@ async function startMzazi() {
       }
             
       if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
-        const mzazii = await client.decodeJid(client.user.id);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, mzazii] });
+        const dragoni = await client.decodeJid(client.user.id);
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '🎭' } }, { statusJidList: [mek.key.participant, dragoni] });
       }
 
       if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
 
       let m = smsg(client, mek, store);
-      const mzazi = require("./mzazi");
-      mzazi(client, m, chatUpdate, store);
+      const dragon = require("./dragon");
+      dragon(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
@@ -182,10 +182,10 @@ async function startMzazi() {
         process.exit();
       } else if (reason === DisconnectReason.connectionClosed) {
         console.log("Connection closed, reconnecting....");
-        startMzazi();
+        startDragon();
       } else if (reason === DisconnectReason.connectionLost) {
         console.log("Connection Lost from Server, reconnecting...");
-        startMzazi();
+        startDragon();
       } else if (reason === DisconnectReason.connectionReplaced) {
         console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
         process.exit();
@@ -194,20 +194,20 @@ async function startMzazi() {
         process.exit();
       } else if (reason === DisconnectReason.restartRequired) {
         console.log("Restart Required, Restarting...");
-        startMzazi();
+        startDragon();
       } else if (reason === DisconnectReason.timedOut) {
         console.log("Connection TimedOut, Reconnecting...");
-        startMzazi();
+        startDragon();
       } else {
         console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
-        startMzazi();
+        startDragon();
       }
     } else if (connection === "open") {
       await client.groupAcceptInvite("G9Ac2ynbbdZLYKIjaxtBK2");
-      console.log(color("Congrats, MZAZI-XMD has successfully connected to this server", "green"));
+      console.log(color("Congrats, DRAGON-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254741388986 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 ` });
+      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254741388986 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 ` });
     }
   });
   client.ev.on("creds.update", saveCreds);
@@ -249,7 +249,7 @@ async function startMzazi() {
     let type = '', mimetype = mime, pathFile = filename;
     if (options.asDocument) type = 'document';
     if (options.asSticker || /webp/.test(mime)) {
-      let { writeExif } = require('./lib/mzaziexif.js');
+      let { writeExif } = require('./lib/dragonexif.js');
       let media = { mimetype: mime, data };
       pathFile = await writeExif(media, { packname: packname, author: packname, categories: options.categories ? options.categories : [] });
       await fs.promises.unlink(filename);
@@ -352,7 +352,7 @@ app.use(express.static("pixel"));
 app.get("/", (req, res) => res.sendFile(__dirname + "/index.html"));
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 
-startMzazi();
+startDragon();
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
