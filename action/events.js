@@ -1,5 +1,5 @@
 const welcomegoodbye = process.env.WELCOMEGOODBYE || "FALSE";
-const botname = process.env.BOTNAME || "𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗";
+const botname = process.env.BOTNAME || "DRAGON-𝗫𝗠𝗗";
 const Events = async (_0x3e9038, _0xde2ef2) => {
   try {
     let _0x2c0ca0 = await _0x3e9038.groupMetadata(_0xde2ef2.id);
