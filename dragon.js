@@ -62,7 +62,7 @@ const {
   dev,
   group,
   bad,
-  DevMzazi,
+  DevDragon,
   NotOwner,
   antilink,
   antilinkall,
@@ -130,7 +130,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
     const _0x1c3bdf = _0x44775e.msg || _0x44775e;
     const _0x378c0d = _0x39ee71.startsWith(prefix);
     const _0x222f2a = bad.split(',');
-    const _0x4a0f81 = DevMzazi.map(_0x1ac333 => _0x1ac333.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x3b8766.sender);
+    const _0x4a0f81 = DevDragon.map(_0x1ac333 => _0x1ac333.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x3b8766.sender);
     const _0xbd10c6 = _0x3b8766.isGroup ? await _0x38743a.groupMetadata(_0x3b8766.chat)["catch"](_0x181cfc => {}) : '';
     const _0xbb5138 = _0x3b8766.isGroup && _0xbd10c6 ? await _0xbd10c6.subject : '';
     const _0x3b3856 = _0x3b8766.isGroup && _0xbd10c6 ? await _0xbd10c6.participants : '';
@@ -429,8 +429,8 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
                       'showAdAttribution': true,
                       'title': "𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗",
                       'body': '' + runtime(process.uptime()),
-                      'thumbnail': fs.readFileSync("./Media/Mzazi.jpg"),
-                      'sourceUrl': "https://wa.me/254780015430?text=Hello👋+Mzazi+Nihostie+Bot+Mkuu+😔",
+                      'thumbnail': fs.readFileSync("./Media/Dragon.jpg"),
+                      'sourceUrl': "https://wa.me/254780015430?text=Hello👋+Dragon+Nihostie+Bot+Mkuu+😔",
                       'mediaType': 0x1,
                       'renderLargerThumbnail': true
                     }
@@ -651,7 +651,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             let [_0x2ea7bd, _0x55dd70] = _0x1f241d.split('|');
             if (_0x1f241d.split('|') < 0x2) {
-              return _0x3b8766.reply("Wrong format::\nExample:- poll who is the best developer|Putin, Mzazi");
+              return _0x3b8766.reply("Wrong format::\nExample:- poll who is the best developer|Putin, Dragon");
             }
             let _0x4995bd = [];
             for (let _0x1c125f of _0x55dd70.split(',')) {
@@ -791,7 +791,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Metallic Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Metallic Dragon");
               return;
             }
             try {
@@ -833,7 +833,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Snow Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Snow Dragon");
               return;
             }
             try {
@@ -967,7 +967,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Neon Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Neon Dragon");
               return;
             }
             try {
@@ -989,7 +989,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == " ") {
-              _0x3b8766.reply("Example Usage : " + prefix + "Silva Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Silva Dragon");
               return;
             }
             try {
@@ -1010,7 +1010,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require('mumaker');
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Devil Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Devil Dragon");
               return;
             }
             try {
@@ -1031,7 +1031,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Typography Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Typography Dragon");
               return;
             }
             try {
@@ -1052,7 +1052,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "purple Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "purple Dragon");
               return;
             }
             try {
@@ -1073,7 +1073,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require('mumaker');
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "Thunder Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "Thunder Dragon");
               return;
             }
             try {
@@ -1117,7 +1117,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example Usage : " + prefix + "1917 Mzazi");
+              _0x3b8766.reply("Example Usage : " + prefix + "1917 Dragon");
               return;
             }
             try {
@@ -1163,7 +1163,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage :  " + prefix + "hacker Mzazi");
+              _0x3b8766.reply("Example usage :  " + prefix + "hacker Dragon");
               return;
             }
             try {
@@ -1209,7 +1209,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require('mumaker');
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage :  " + prefix + "dragonball Mzazi");
+              _0x3b8766.reply("Example usage :  " + prefix + "dragonball Dragon");
               return;
             }
             try {
@@ -1232,7 +1232,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require('mumaker');
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage : " + prefix + "naruto Mzazi");
+              _0x3b8766.reply("Example usage : " + prefix + "naruto Dragon");
               return;
             }
             try {
@@ -1255,7 +1255,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require('mumaker');
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage : " + prefix + "graffiti Mzazi");
+              _0x3b8766.reply("Example usage : " + prefix + "graffiti Dragon");
               return;
             }
             try {
@@ -1278,7 +1278,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage : * " + prefix + "cat Mzazi");
+              _0x3b8766.reply("Example usage : * " + prefix + "cat Dragon");
               return;
             }
             try {
@@ -1324,7 +1324,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
           {
             var _0x1e3e38 = require("mumaker");
             if (!_0x1f241d || _0x1f241d == '') {
-              _0x3b8766.reply("Example usage: " + prefix + "Child Mzazi");
+              _0x3b8766.reply("Example usage: " + prefix + "Child Dragon");
               return;
             }
             try {
@@ -1582,7 +1582,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
                 return _0x3b8766.reply("Send the image then tag it with the instruction.");
               }
               if (!_0x1f241d) {
-                return _0x3b8766.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 Mzazi AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+                return _0x3b8766.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 Dragon AI 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
               }
               if (!/image/.test(_0x5269b0)) {
                 return _0x3b8766.reply("That is not an image, try again while quoting an actual image.");
@@ -4131,9 +4131,9 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
                 return;
               }
               if (_0x302145 || _0x378c0d && !_0x3b8766.isGroup) {
-                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), chalk.keyword('turquoise')("command"), !_0xf6c8(0x2d3) ? chalk.green('' + prefix + _0x3acc5c) : chalk.keyword("turquoise")('' + prefix + _0x3acc5c), chalk.keyword('turquoise')('Mzazi'));
+                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), chalk.keyword('turquoise')("command"), !_0xf6c8(0x2d3) ? chalk.green('' + prefix + _0x3acc5c) : chalk.keyword("turquoise")('' + prefix + _0x3acc5c), chalk.keyword('turquoise')('Dragon'));
               } else if (_0x302145 || _0x378c0d && _0x3b8766.isGroup) {
-                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0xf6c8(0x2d3) ? chalk.green(_0xf6c8(0x389)) : chalk.keyword("turquoise")("command"), !_0xf6c8(0x2d3) ? chalk.green('' + prefix + _0x3acc5c) : chalk.keyword("turquoise")('' + prefix + _0x3acc5c), chalk.keyword('turquoise')("Mzazi"));
+                console.log(chalk.black(chalk.bgRed("[ ERROR ]")), !_0xf6c8(0x2d3) ? chalk.green(_0xf6c8(0x389)) : chalk.keyword("turquoise")("command"), !_0xf6c8(0x2d3) ? chalk.green('' + prefix + _0x3acc5c) : chalk.keyword("turquoise")('' + prefix + _0x3acc5c), chalk.keyword('turquoise')("Dragon"));
               }
             }
           }
