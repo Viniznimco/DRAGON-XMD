@@ -15,14 +15,14 @@ const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PUBLIC';
 
-const botname = process.env.BOTNAME || '𝗠𝗭𝗔𝗭𝗜-𝗫𝗠𝗗';
+const botname = process.env.BOTNAME || '𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'𝗕𝗢𝗧';
-const packname = process.env.STICKER_PACKNAME || '𝗠𝗭𝗔𝗭𝗜';
-const dev = process.env.DEV || '254741388986';
+const packname = process.env.STICKER_PACKNAME || '𝗗𝗥𝗔𝗚𝗢𝗡';
+const dev = process.env.DEV || '254780015430';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
-const DevMzazi = dev.split(",");
+const DevDragon = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck';
 const autoread = process.env.AUTOREAD || 'FALSE';
@@ -45,7 +45,7 @@ module.exports = {
   author,
   packname,
   dev,
-  DevMzazi,
+  DevDragon,
   badwordkick,
   bad,
   mode,
