@@ -2842,7 +2842,7 @@ module.exports = dragon = async (_0x38743a, _0x3b8766, _0x127c44, _0x14562e) => 
             'image': {
               'url': "https://i.imgur.com/A08nrWx.jpeg"
             },
-            'caption': " Hello👋 *" + _0x4250cf + "*,You can deploy 𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/Viniznimco/DRAGON-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://dragon-xmd-cjp7.onrender.com/\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗░\n\n𝗠𝗮𝗱𝗲 𝗶𝗻 𝗞𝗲𝗻𝘆𝗮 𝗯𝘆 𝗗𝗥𝗔𝗚𝗢𝗡!\n\n𝗜𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝘁𝗲𝘅𝘁 𝗺𝗲 𝗼𝗻 +254780015430 𝗼𝗿 𝘁𝗲𝘅𝘁 𝘆𝗼𝘂𝗿 𝗳𝗮𝘃𝗼𝘂𝗿𝗶𝘁𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗿\n\n© 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗗𝗥𝗔𝗚𝗢𝗡 "
+            'caption': " Hello👋 *" + _0x4250cf + "*,You can deploy 𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗 using the GitHub link below 𓅂\n\nFork and give us a star✨.\n\n https://github.com/Viniznimco/DRAGON-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://msnapdragon-junior.onrender.com/\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with ░𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗░\n\n𝗠𝗮𝗱𝗲 𝗶𝗻 𝗞𝗲𝗻𝘆𝗮 𝗯𝘆 𝗗𝗥𝗔𝗚𝗢𝗡!\n\n𝗜𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝘁𝗼 𝗯𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗱 𝘁𝗲𝘅𝘁 𝗺𝗲 𝗼𝗻 +254780015430 𝗼𝗿 𝘁𝗲𝘅𝘁 𝘆𝗼𝘂𝗿 𝗳𝗮𝘃𝗼𝘂𝗿𝗶𝘁𝗲 𝗱𝗲𝗽𝗹𝗼𝘆𝗲𝗿\n\n© 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗗𝗥𝗔𝗚𝗢𝗡 "
           }, {
             'quoted': _0x3b8766
           });
