@@ -203,11 +203,11 @@ async function startDragon() {
         startDragon();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("G9Ac2ynbbdZLYKIjaxtBK2");
+      await client.groupAcceptInvite("FRDtAailExp6hKbQgbLBnP");
       console.log(color("Congrats, DRAGON-XMD has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Nick_hunter9", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254741388986 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 ` });
+      client.sendMessage(client.user.id, { text: `> 𝗕𝗼𝘁 𝐢𝐬 𝗼𝗻𝗹𝗶𝗻𝗲【𝗗𝗥𝗔𝗚𝗢𝗡-𝗫𝗠𝗗】𝗶𝗳 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱 𝗮𝗻𝘆 𝗵𝗲𝗹𝗽, 𝘁𝗲𝐱𝐭 𝗺𝗲 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 +254780015430 𝗼𝗿 𝗮𝗻𝘆 𝗶𝘀𝘀𝘂𝗲 ` });
     }
   });
   client.ev.on("creds.update", saveCreds);
