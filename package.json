@@ -87,10 +87,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/TeddyDommie/DRAGON-XMD.git" 
+     "url": "https://github.com/Viniznimco/DRAGON-XMD.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/TeddyDommie/DRAGON-XMD/issues" 
+     "url": "https://github.com/Viniznimco/DRAGON-XMD/issues" 
    }, 
-   "homepage": "https://github.com/TeddyDommie/DRAGON-XMD#readme" 
+   "homepage": "https://github.com/Viniznimco/DRAGON-XMD#readme" 
    }
