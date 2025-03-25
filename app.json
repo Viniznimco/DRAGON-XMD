@@ -1,5 +1,5 @@
 {
-  "name": "MZAZI-XMD",
+  "name": "DRAGON-XMD",
   "description": "I don't know what I'm doing",
   "keywords": [
     "bot",
@@ -20,12 +20,12 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of MZAZI-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of DRAGON-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254741388986,254100156216  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254780015430,255780015430  ",
       "required": true
     },
     "NOT_OWNER_MSG": {
